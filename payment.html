@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,  initial-scale=1.0">
+    <meta content="utf-8" http-equiv="encoding">
+    <link href="test.css" type="text/css" rel="stylesheet"/>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crete+Round" rel="stylesheet">
+    <link rel="icon" href="./img/logo.svg" />
+    <style>
+      table, th, td {
+        border: 0px solid black;
+        border-collapse: collapse;
+        margin-left: 580px;
+        font-size: 25px;
+      }
+
+      th, td {
+        padding: 5px;
+        text-align: left;
+        width: 0px;
+        height: 40px;
+      }
+    </style>
+</head>
+<body>
+  <title>Dvorana Morača - Plaćanje</title>
+ 
+   <nav>
+    <ul>
+        <img id="logo" src="./img/logo.svg" >  <li><p id="p" style=" font-family:  'Crete Round', serif; ">Dvorana Morača</p></li>
+    </ul>
+   </nav>
+
+  <div class="h2">
+      <h2 id="total" ></h2>
+
+<script>
+    var ukupno = localStorage.getItem("storageName");
+    $("#total").html('\nUkupno za naplatiti: '+ ukupno + 'kn');
+</script>
+  
+</div>
+ 
+  
+    <table style="border:0;">
+      <tr>
+        <th>Ime:</th><td><input type="text" style="width:200px"></td>
+      
+      </tr>
+      <tr>
+        <th>Prezime:</th><td><input type="text" style="width:200px"></td>
+      
+      </tr>
+      <tr>
+          <th>Adresa:</th><td><input type="text" style="width:200px"></td>
+      </tr>
+      <tr>
+          <th>E-mail:</th><td><input type="text" style="width:200px"></td>
+      </tr>
+      <tr>
+          <th>Način plaćanja:</th><td>Novčanice<input type="checkbox">Kartica<input type="checkbox"></td>
+      </tr>
+    </table>
+    
+    <button id="submit" style="width:80px; font-family: cursive;" ><img src="./img/check.svg" style="width: 24px; height: 24px;">Potvrdi</button>
+
+</body>
+</html>

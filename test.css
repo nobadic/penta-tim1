@@ -1,0 +1,276 @@
+body,html {
+padding: 0;
+margin: 0;
+}
+
+[zoom-control] {
+  cursor: pointer;
+  fill: transparent;
+}
+
+[seat] {
+  fill: #4EBF1B;
+}
+
+[seat][locked] {
+  fill: #888888;
+}
+
+[seat][selected] {
+  fill: #1030E3;
+}
+
+
+/*------------------Kosarica------------------*/
+
+.container{
+  display: flex;
+}
+
+.rightpane {
+  flex:0.4;
+  width: 20%;
+  height: 100%;
+  float: right;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  background-color: white;
+}
+.leftpane {
+  flex: 1;
+  width:80%;
+  padding: 10px;
+  position: relative;
+  display: inline-block;
+  background-attachment: fixed;
+
+}
+.leftpane img{
+  position: absolute;
+  margin-left: 265px;
+  bottom: 183px;
+  transform-origin: 0px 0px 0px;
+  
+}
+.leftpane svg{
+margin-top: 30px;
+
+}
+
+.kosarica-container{
+cursor: default;
+font-family: 'Sarabun', sans-serif;
+margin: 10px;
+}
+h3{
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+ 
+  
+}
+.kosarica-naslov{
+margin: 0;
+padding: 10px 0 0;
+}
+.kosarica-naslov img{
+  float: left;
+  display: block;
+  height: 20px;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+.kosarica-naslov h3{
+  display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 280px;
+    margin-top: 0px;
+    padding: 0 0 0 10px;
+ 
+}
+.kosarica-ticket{
+  margin: 0;
+  padding: 0;
+  border: 1px solid #f3f3f3;
+  overflow-y: auto;
+  overflow-x: hidden;
+  cursor:scroll;
+  width: 400px;
+  height: 250px;
+}
+.kosarica-ticket ul li{
+  height: 20px;
+  width: 130px;
+  font-family: 'Sarabun', sans-serif;
+}
+
+/*--------------------Kraj - Kosarica--------------------*/
+h1{
+  font-family: 'Merienda', cursive;
+
+  color: black;
+  margin-top: auto;
+}
+
+/*--------------------------Legenda--------------------------------*/
+.my-legend {
+  max-width: 300px !important;
+  margin-left: 140px;
+  
+  }
+.legend-title{
+  border:1px solid #C4C4C4; 
+  border-radius: 15px;
+  width: 120px;
+  height: 20px;
+  text-align: center;
+  background-color: #C4C4C4;
+
+}
+.my-legend .legend-title {
+  text-align: center;
+  margin-left: -15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 100%; 
+  margin-top: 200px;
+  }
+.my-legend .legend-scale ul {
+  margin: 0;
+  margin-bottom: 0px;
+  padding: 0;
+  float: left;
+  list-style: none;
+  }
+.my-legend .legend-scale ul li {
+  font-size: 90%;
+  
+  list-style: none;
+  margin-left: 0;
+  line-height: 18px;
+  margin-bottom: 2px;
+  }
+.my-legend ul.legend-labels li span {
+  display: block;
+  float: left;
+  height: 16px;
+  width: 16px;
+  margin-right: 5px;
+  margin-left: 160px;
+  border: 1px solid #CDD9F6;
+  }
+.my-legend a {
+  color: #CDD9F6;
+  }
+
+  /*----------------------Kraj - Legenda-------------------------*/
+
+  nav ul {
+    margin: 0 ;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+   
+    width: 100%;
+    height: 45px;
+   
+    font-family: 'Merienda', cursive;
+
+}
+#logo{
+  width:38px; 
+  height:38px;
+  margin-top: 2px;
+  margin-left: 7px;
+}
+ul{
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+h2{
+  font-family: 'Sarabun', sans-serif;
+  color:white;
+  margin-top: auto;
+  text-align: left;
+  padding-left: 10px;
+
+  
+
+}
+footer{
+  padding: 0px;
+  text-align: center;
+  color: white;
+  background-color: #E0E0E0;
+  font-family: 'Roboto Mono', monospace;
+}
+
+p{
+  font-size: 40px;
+  color: #C4C4C4;
+  margin-top: -48px;
+  text-align: center;
+  margin-bottom: 0px;
+ 
+ 
+ 
+}
+
+.h2 h2{
+color: black;
+text-align: center;
+margin-top: 20px;
+font-family: 'Sarabun', sans-serif;
+font-size: 50px;
+
+}
+
+#submit {
+margin-left:750px;
+margin-top: 20px;
+}
+
+
+
+/*----------Tooltip-------------------*/
+[data-title] {
+  position: relative;
+}
+
+[data-title]:hover::before {
+  content: attr(data-title);
+  position: absolute;
+  bottom: -26px;
+  display: inline-block;
+  padding: 3px 6px;
+  border-radius: 2px;
+  background: #000;
+  color: #fff;
+  font-size: 12px;
+  font-family: 'Merienda', cursive;
+  white-space: nowrap;
+}
+[data-title]:hover::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 8px;
+  display: inline-block;
+  color: #fff;
+  border: 8px solid transparent;	
+  border-bottom: 8px solid #000;
+}
+/*-------------Kraj-tooltip-----------------*/
