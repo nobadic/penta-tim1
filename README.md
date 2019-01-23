@@ -1,6 +1,11 @@
 # penta-tim1
 Realni prikaz dvorane i mijenjanje statusa mjesta u različitim bojama
 
+
+# VAŽNO
+Treba prvo raspakirati node_modules, jer je file prevelik, pa je zato .rar
+
+
 ### Autori (2017./2018.)
 - **Banjavčić Josipa** (jbanjavcic@unipu.hr)
 - **Obadić Nikolina**	(nobadic@unipu.hr)
