@@ -3,7 +3,7 @@ Realni prikaz dvorane i mijenjanje statusa mjesta u različitim bojama
 
 
 # VAŽNO
-Treba prvo raspakirati node_modules, jer je file prevelik, pa je zato .rar
+Treba prvo raspakirati node_modules.rar unutar projekta
 
 
 ### Autori (2017./2018.)
