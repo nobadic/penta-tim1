@@ -1,6 +1,6 @@
 # penta-tim1
-Realni prikaz dvorane i mijenjanje statusa mjesta u različitim bojama 
-Test (https://penta-tim1-g04tl9poy.now.sh/index.html)
+Realni prikaz dvorane i mijenjanje statusa mjesta u različitim bojama, 
+test (https://penta-tim1-g04tl9poy.now.sh/index.html)
 
 
 # VAŽNO
