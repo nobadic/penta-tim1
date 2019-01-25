@@ -1,10 +1,10 @@
 # penta-tim1
-Realni prikaz dvorane i mijenjanje statusa mjesta u različitim bojama
+Realni prikaz dvorane i mijenjanje statusa mjesta u različitim bojama 
+Test (https://penta-tim1-g04tl9poy.now.sh/index.html)
 
 
 # VAŽNO
 Treba prvo raspakirati node_modules.rar unutar projekta
-
 
 ### Autori (2017./2018.)
 - **Banjavčić Josipa** (jbanjavcic@unipu.hr)
